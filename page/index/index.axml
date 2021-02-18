@@ -1,0 +1,11 @@
+<view>
+    <button type="primary" size="" onTap="login"> 点击登录 </button>
+    <view class="row">CorpId: {{corpId}}</view>
+
+    <view hidden="{{hideList}}">
+        <view class="row">AuthCode: {{authCode}}</view>
+        <view class="row">UserId: {{userId}}</view>
+        <view class="row">Name: {{userName}}</view>
+    </view>
+    
+</view>
