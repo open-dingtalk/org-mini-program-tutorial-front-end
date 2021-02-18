@@ -1,4 +1,5 @@
 .row{
     font-size: 30rpx;
     margin-bottom: 10rpx;
+    margin-left: 10rpx;
 }
