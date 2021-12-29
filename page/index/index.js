@@ -34,8 +34,8 @@ Page({
                     success: (res) => {
                         if (res && res.data.success) {
                             console.log('httpRequest success --->', res);
-                            let userId = res.data.data.userId;
-                            let userName = res.data.data.userName;
+                            let userId = res.data.result.userId;
+                            let userName = res.data.result.userName;
                             this.setData({
                                 userId:userId,
                                 userName:userName,
